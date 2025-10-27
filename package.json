@@ -1,0 +1,18 @@
+{
+  "name": "backend-course-2025-4",
+  "version": "1.0.0",
+  "description": "Simple HTTP server on Node.js for iris dataset",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js -i iris.json -h localhost -p 3000",
+    "dev": "nodemon server.js -i iris.json -h localhost -p 3000"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fast-xml-parser": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "author": "Дмитро Усіченко bc2025-4"
+}
